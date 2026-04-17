@@ -10,7 +10,7 @@ def Password():
     return password
 print(Password())
 
-
+# Second approach
 def Password():
     password = input("Enter you Password: ")
     if len(password) >=8 and (password.isalnum()):
